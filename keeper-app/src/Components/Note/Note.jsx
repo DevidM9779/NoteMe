@@ -1,11 +1,11 @@
 import react from 'react'
 import "./note.css"
 
-export default function Note() {
+export default function Note(props) {
     return (
         <div className="note">
-            <h1>Note's title</h1>
-            <p>Note's text</p>
+            <h1>{props.title}</h1>
+            <p>{props.content}</p>
         </div>
     )
 }
