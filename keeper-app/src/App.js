@@ -1,7 +1,7 @@
 import logo from './logo.svg';
-import Header from "./Components/Header/Header"
-import Footer from "./Components/Footer/Footer"
-import Note from "./Components/Note/Note"
+import Header from "./Components/Header"
+import Footer from "./Components/Footer"
+import Note from "./Components/Note"
 import notes from "./notes"
 import './App.css';
 

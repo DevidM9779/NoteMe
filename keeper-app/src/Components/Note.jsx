@@ -1,6 +1,3 @@
-import react from 'react'
-import "./note.css"
-
 export default function Note(props) {
     return (
         <div className="note">
